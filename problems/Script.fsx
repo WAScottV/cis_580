@@ -33,3 +33,6 @@ let rec search f list =
             -1
         else
             result + 1
+let rec f n x =   
+   if n = 0 then x
+   else f (n - 1) (List.tail x)
